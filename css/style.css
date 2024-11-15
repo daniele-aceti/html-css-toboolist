@@ -21,26 +21,34 @@ body{
 
 .navigator{
     margin: 40px 225px -35px 225px;
-
+    padding: 10px;
 }
 
 #button-task{
     background-color: #14aaf5;
     margin-left: 50px;
+    border-radius: 5px;
+    padding: 2px;
 
 
 }
 #button-section{
     border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
 
 }
+
  /*content-box*/
 
 
 .content{
-    text-align: center;
     margin: 40px 225px 0 225px;
 
+}
+
+.content summary{
+    margin-left: 60px;
 }
 
 
@@ -50,5 +58,6 @@ body{
 #is-utility{
     background-color: white;
     width: 70%;
+    border-radius: 5px;
 
 }
