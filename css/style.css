@@ -74,7 +74,6 @@ body{
     color: white;
     border-radius: 10px;
     padding: 5px;
-    font-size: x-small;
 }
 
 
@@ -97,9 +96,12 @@ body{
     background-color: white;
     width: 70%;
     border-radius: 5px;
+    font-size: small;
 
 }
 
 #utility-content{
     margin-left: 60px;
+    font-size: large
+    ;
 }
