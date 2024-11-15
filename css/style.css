@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+/*header*/
+
+.banner{
+    background-color: white;
+}
+#logo{
+    width: 200px;
+}
+
+/*main-navigator*/
+
+
+
+#button-task{
+    background-color: #14aaf5;
+    margin-left: 50px;
+
+
+}
+#button-section{
+    border: 1px solid black;
+
+}
+ /*content-box*/
+
+
+
+
+ /*utility class*/
+
+ #is-utility{
+    background-color: white;
+    text-align: center;
+    margin: 40px 225px 0 225px;
+    width: 70%;
+ }
