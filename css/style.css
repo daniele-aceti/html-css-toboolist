@@ -47,11 +47,27 @@ body{
 
 }
 
-.content summary{
-    margin-left: 60px;
+
+/*FIXME TODO: CONTENT SUMMARY USARE LA CLASSE PER SPOSTARE ANCHE IL CONTENT*/
+
+.task-text{
+    display: inline;
+    margin-left: 8px;
+    margin-right:3px;
+
 }
 
-
+.task-icon{
+    display: inline-block;
+    border: 1px solid green;
+    color: green;
+    border-radius: 100%;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    margin-left: 50px;
+}
 
 /*utility class*/
 
@@ -60,4 +76,8 @@ body{
     width: 70%;
     border-radius: 5px;
 
+}
+
+#utility-content{
+    margin-left: 60px;
 }
