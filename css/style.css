@@ -47,8 +47,12 @@ body{
 
 }
 
+.today-row{
+    padding:5px;
+}
 
-/*FIXME TODO: GRANDEZZA E FONT LIGHTER DA AGGIUNGERE*/
+
+/*FIXME TODO: GRANDEZZA E FONT LIGHTER DA AGGIUNGERE check piu piccolo*/
 
 .task-text{
     display: inline;
@@ -59,22 +63,37 @@ body{
 
 .task-icon{
     display: inline-block;
-    border: 1px solid green;
-    color: green;
+    border: 1px solid #b8eae2;
+    color: #b8eae2;
     border-radius: 100%;
     height: 24px;
     width: 24px;
     text-align: center;
     line-height: 24px;
-    margin-left: 50px;
 }
 
-#text-tag{
-    background-color: #14aaf5;
-    color: white;
-    border-radius: 10px;
-    padding: 5px;
+.task-icon-red{
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 100%;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    color: red;
+
 }
+
+#text-tag-goals{
+    background-color: purple;
+
+}
+
+#text-tag-editorial{
+    background-color: #0aa9ed;
+}
+
+
 
 
 
@@ -104,4 +123,10 @@ body{
     margin-left: 60px;
     font-size: large
     ;
+}
+
+.text-tag-utility{
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
 }
